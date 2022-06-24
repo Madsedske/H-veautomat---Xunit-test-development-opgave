@@ -13,7 +13,7 @@ namespace Hæveautomat.Tests
         [Fact]
         public void Overfør_Tests()
         {
-            // Arrange
+            // Arrange 
             double expected = 10000;
 
             // Act
