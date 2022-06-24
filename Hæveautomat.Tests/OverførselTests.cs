@@ -22,5 +22,18 @@ namespace Hæveautomat.Tests
             // Assert
             Assert.Equal(expected, actual);
         }
+
+
+        [Theory]
+        [InlineData]
+        public void Checkpin_IsTrue() 
+        {
+
+            // Act
+            double actual = Overførsel.Overfør(53000);
+
+            // Assert
+            Assert.Equal();
+        }
     }
 }
